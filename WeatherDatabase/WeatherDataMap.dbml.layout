@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WeatherDataMap">
+  <DataContextMoniker Name="/WeatherDataMapDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6a7797ff-d164-4963-8288-886c20275f12" absoluteBounds="3.5, 2.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/WeatherDataMapDataContext/WEATHER_DATA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="22c85e12-7bd5-4ac3-b276-880580e55309" absoluteBounds="3.515, 3.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
