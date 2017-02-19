@@ -14,21 +14,6 @@ namespace WeatherProxy.Helpers
 {
     public static class ConvertHelper
     {
-        public class Item
-        {
-            public List<ItemDictionary> ItemList { get; set; }
-            public string Name { get; set; }
-            public DateTime UpdateDate { get; set; }
-            public bool IsRain { get; set; }
-            public bool IsClouds { get; set; }
-        }
-
-        public class ItemDictionary
-        {
-            public string Key { get; set; }
-            public string Value { get; set; }
-        }
-
         public static WeatherDataJson ConvertFromJSON(string json)
         {
             WeatherDataJson weatherData = new WeatherDataJson();
