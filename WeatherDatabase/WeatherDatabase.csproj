@@ -61,7 +61,6 @@
     <Compile Include="DataExchange\DbConnection.cs" />
     <Compile Include="DataExchange\WeatherData.cs" />
     <Compile Include="DataExchange\WeatherDataJson.cs" />
-    <Compile Include="Operation\DatabaseContex.cs" />
     <Compile Include="Operation\InsertOperation.cs" />
     <Compile Include="Operation\InsertOrUpdateOperation.cs" />
     <Compile Include="Operation\OperationBase.cs" />

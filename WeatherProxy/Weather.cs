@@ -135,10 +135,7 @@ namespace WeatherProxy
         }
 
         #endregion
-
-
     }
-
     public enum DataFormat
     {
         XML,

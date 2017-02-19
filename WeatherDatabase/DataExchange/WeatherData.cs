@@ -8,7 +8,6 @@ using System.Xml.Serialization;
 
 namespace WeatherDatabase.DataExchange
 {
-
     public class WeatherData
     {
         public DateTime UpdateDate { get; set; }
@@ -17,24 +16,7 @@ namespace WeatherDatabase.DataExchange
         public DateTime Sunset { get; set; }
         public bool IsRain { get; set; }
         public bool IsCloud { get; set; }
-
-        //public WeatherDataMembers DataMembers { get; set; }
     }
 
 
-    //public class WeatherDataMembers
-    //{
-
-    //    public string Name { get; set; }
-
-
-    //    public IDictionary<string, string> Sys { get; set; }
-
-
-    //    public IDictionary<string, string> Rain { get; set; }
-
-
-    //    public IDictionary<string, string> Clouds { get; set; }
-
-    //}
 }
