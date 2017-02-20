@@ -66,7 +66,7 @@ namespace WeatherProxy.Helpers
             DateTime sunrise = ConvertUTCTimeToDateTime(jsonData.DataMembers.Sys[WeatherServiceProvider.Sunrise]);
             DateTime sunset = ConvertUTCTimeToDateTime(jsonData.DataMembers.Sys[WeatherServiceProvider.Sunset]);
 
-            weatherData.Name = jsonData.DataMembers.Name;
+            weatherData.Name = jsonData.DataMembers.Name.ToLower();
             weatherData.UpdateDate = jsonData.UpdateDate;
             weatherData.IsCloud = jsonData.DataMembers.Clouds == null ? false : true;
             weatherData.IsRain = jsonData.DataMembers.Rain == null ? false : true;

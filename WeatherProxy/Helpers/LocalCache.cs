@@ -40,5 +40,10 @@ namespace WeatherProxy.Helpers
         {
             return cache[name] as T;
         }
+
+        public void Remove(string name)
+        {
+            cache.Remove(name);
+        }
     }
 }

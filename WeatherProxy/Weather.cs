@@ -68,6 +68,7 @@ namespace WeatherProxy
 
             if(WeatherData == null || (WeatherData != null && WeatherData.UpdateDate < updateDate))
             {
+                LocalCache.Instance.Remove(CityName);
                 WeatherData = GetDataFromDatabase(CityName, updateDate);
                 if (WeatherData == null)
                 {
